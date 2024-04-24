@@ -1,8 +1,28 @@
-# React + Vite
+![Portada](https://github.com/Nico9934/memo-tst/blob/master/src/assets/portada.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🕹️🎮​⚔️​ Memo-Tst ​⚔️🎮​🕹️
 
-Currently, two official plugins are available:
+####  Project by: Nico Rolon ©️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔶 Sobre El proyecto 🔶
+¿Estas listo para llegar al máximo nivel? Un juego clasico y divertido, creado en su totalidad con ReactJs, TailwindCss y CSS puro. Se optimizó para jugarlo en escritorio, pero esta en 
+proceso la versión para mobile. Espero que puedas disfrutar tanto como yo al programarlo. Mi nombre es Nico Rolón, y me gustaría comentarte  que este proyecto representa un paso significativo en mi trayectoria como desarrollador FrontEnd, y ha sido construido utilizando tecnologías avanzadas para brindar una experiencia eficiente y atractiva.
+
+##  Tecnologías 🚶
+El proyecto está creado con Vite. Para el styling se utilizó CSS puro, metodología BEM, y React
+
+### ⚙️ Funcionalidades Destacadas
+- **Contador de nivel:** La aplicación permite saber en qué nivel del juego te encontras.
+- **Interfaz dinámica:** El diseño del juego permite actualizarse y renderizarse en base al nivel en el que el jugador se encuentra.
+- **Sonidos adaptados:** El juego cuenta con la opción de tener o no sonido. Presiona los distintos botones, jugá y disfruta los sonidos de 8-bits. 
+- **Timer:** El juego tiene un dead-time. ¡Esto significa que tenés que apurarte para no volver al principio!
+
+## Demo 📷
+![Descripción de la imagen](/src/img/Screen.bmp)
+
+## Deploy del proyecto ™️
+
+[https://visitsvet.netlify.app/](https://visitsvet.netlify.app/)
+
+### Referencias 🕹️
+Este juego y su desarrollo esta basado en un programa creado por 🕹️ Programación Accesible
