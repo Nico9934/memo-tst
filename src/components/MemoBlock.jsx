@@ -24,12 +24,13 @@ const MemoBlock = ({ emoji, handleMemoClick, animating, soundOn }) => {
           emoji.flipped && "memo-block-flipped"
         }`}
       >
-        {/* <div
-          className={`memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-[url('src/assets/back-carts/${level}.png')] bg-cover shadow-lg`}
-        ></div> */}
-
-        {/* Parte de atrass */}
+        {/* Parte de atras fija */}
         <div
+          className={`memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-[url('src/assets/back-carts/1.png')] bg-cover shadow-lg`}
+        ></div>
+
+        {/* Parte de atrass dinamica que no funciona */}
+        {/* <div
           className={`memo-block-front bg-cover shadow-lg text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24
           ${
             level <= 1
@@ -52,7 +53,7 @@ const MemoBlock = ({ emoji, handleMemoClick, animating, soundOn }) => {
               ? "bg-[url(src/assets/back-carts/9.png)]"
               : "bg-[url(src/assets/back-carts/10.png)]"
           }`}
-        ></div>
+        ></div> */}
 
         {/* Frente de la carta */}
         <div className="memo-block-back text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-slate-200 ">
