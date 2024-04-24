@@ -28,29 +28,30 @@ const MemoBlock = ({ emoji, handleMemoClick, animating, soundOn }) => {
           className={`memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-[url('src/assets/back-carts/${level}.png')] bg-cover shadow-lg`}
         ></div>
         <div
-          className={`memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-[url('src/assets/back-carts/${
+          className={`memo-block-front bg-cover shadow-lg text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24
+          ${
             level <= 1
-              ? "1"
+              ? "bg-[url(src/assets/back-carts/1.png)]"
               : level <= 2
-              ? "2"
+              ? "bg-[url(src/assets/back-carts/2.png)]"
               : level <= 3
-              ? "3"
+              ? "bg-[url(src/assets/back-carts/3.png)]"
               : level <= 4
-              ? "4"
+              ? "bg-[url(src/assets/back-carts/4.png)]"
               : level <= 5
-              ? "5"
+              ? "bg-[url(src/assets/back-carts/5.png)]"
               : level <= 6
-              ? "6"
+              ? "bg-[url(src/assets/back-carts/6.png)]"
               : level <= 7
-              ? "7"
+              ? "bg-[url(src/assets/back-carts/7.png)]"
               : level <= 8
-              ? "8"
+              ? "bg-[url(src/assets/back-carts/8.png)]"
               : level <= 9
-              ? "9"
-              : "10"
-          }.png')] bg-cover shadow-lg`}
+              ? "bg-[url(src/assets/back-carts/9.png)]"
+              : "bg-[url(src/assets/back-carts/10.png)]"
+          }`}
         ></div>
-        <div className="memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-cover shadow-lg bg-[url(src/assets/back-carts/1.png)]"></div>
+
         <div className="memo-block-back text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-slate-200 ">
           {emoji.icon}
         </div>
