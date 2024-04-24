@@ -24,9 +24,11 @@ const MemoBlock = ({ emoji, handleMemoClick, animating, soundOn }) => {
           emoji.flipped && "memo-block-flipped"
         }`}
       >
-        <div
+        {/* <div
           className={`memo-block-front text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-[url('src/assets/back-carts/${level}.png')] bg-cover shadow-lg`}
-        ></div>
+        ></div> */}
+
+        {/* Parte de atrass */}
         <div
           className={`memo-block-front bg-cover shadow-lg text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24
           ${
@@ -52,6 +54,7 @@ const MemoBlock = ({ emoji, handleMemoClick, animating, soundOn }) => {
           }`}
         ></div>
 
+        {/* Frente de la carta */}
         <div className="memo-block-back text-3xl md:text-6xl w-12 h-12 md:w-24 md:h-24 bg-slate-200 ">
           {emoji.icon}
         </div>
